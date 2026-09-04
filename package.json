@@ -6,12 +6,12 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {
-    "test": "echo \"No tests specified\"",
-    "start": "node index.js",
-    "lint": "eslint .",
-    "build": "echo \"No build script specified\""
-  },
+ "scripts": {
+  "test": "jest",
+  "start": "node index.js",
+  "lint": "eslint .",
+  "build": "echo \"No build script specified\""
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Maleye-tech/devop.git"
