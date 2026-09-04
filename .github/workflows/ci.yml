@@ -25,3 +25,11 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: lint
+        run: npm run lint
+
+      - name: build
+        run: npm run build  
+      - name: Build Docker image
+        run: docker build -t devops .
